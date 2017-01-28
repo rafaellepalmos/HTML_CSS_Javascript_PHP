@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+
+.main {
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+}
+
+.index {
+	border-style: solid;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+}
+
+.index-text {
+	margin-top: 300px;
+}
+
+.site__container {
+	border-style: solid;
+	background-color: rgba(255,255,255,0.8);
+	width: 300px;
+	margin-top: 150px;
+}
+
+.main-store {
+	background-image: url("../images/pixel.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 2500px;
+	width: 100vw;
+}
+
+#logout {
+	margin-right: 50px;
+	margin-top: 7px;
+}
+
+#greeting {
+	margin-top: 15px;
+	margin-right: 50px;
+	color: gray;
+}
+
+.panel {
+    border: 1px solid gray; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid cyan;
+    background-color: #fff !important;
+    color: gray;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: gray !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: gray;
+    color: #fff;
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+.logo {
+    font-size: 200px;
+	color: gray;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.index-text, .col-sm-4, .col-sm-3, h1, h2, h3, h4, p, li, a {
+	font-family: 'Comfortaa', cursive;
+}
+
+#account {
+	background-color: rgba(255,255,255,0.6);
+	/*text-align: center;*/
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-left: 50px;
+	height: 500px;
+	widows: 700px;
+}
+
+.col-sm-3 {
+	text-align: center;
+}
+
+#faye, #arvind, #sajag, #nitesh {
+	text-align: center;
+	background-color: rgba(255,255,255,0.6);
+}

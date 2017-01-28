@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#background{
+	position:relative;
+	}
+
+#container {
+	width: 1000px;
+	background-color: white;
+	margin: 0 auto;
+	}
+	
+#header {
+	font-family: 'Philosopher', sans-serif;
+	width: 1000px;
+	margin-bottom:40px;
+	background-color: #1DCD00;
+	}
+	
+#black {
+	width:inherit;
+	height:30px;
+	background-color:black;;
+	vertical-align:top;
+	}
+	
+#green {
+	width: 1000px;
+	height:300px;
+	background-color: #1DCD00;
+	text-align:center;
+	vertical-align:bottom;
+	}
+
+.headerimg {
+	float:left;
+	}
+	
+#catchphrase {
+	color:white;
+	}
+	
+#nav {
+	background-color: rgba(29,205,0,1.00);
+	text-align:center;
+	margin-bottom:40px;
+	}
+	
+#nav ul {
+	padding-top:5px;
+	padding-bottom:5px;
+	color:white;
+	list-style-type:none;
+	}
+	
+#nav li {
+	font-family: 'Cinzel', serif;
+	display:inline;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left:20px;
+	margin-right:20px;
+	}
+	
+#nav li a{
+	color:white;
+	text-decoration:none;
+	}
+	
+#nav li:hover, li:active {
+	background-color:rgba(0,255,29,1.00)
+	}
+	
+#main {
+	font-family: 'Comfortaa', cursive;
+	padding:50px;
+	background-color:beige;
+	}
+
+.ivideo {
+	text-align:center;
+	}/*for index.html video*/
+	
+.ch3 {
+	font-family: 'Gochi Hand', cursive;
+	margin-top:50px;
+	margin-left:20px;
+	margin-right:25px;
+	} /*for character.html h3*/
+
+.cp {
+	font-family: 'Gochi Hand', cursive;
+	margin-bottom:50px;
+	}/*for character.html p*/
+
+.left {
+	float:left;
+	padding:5px;
+	margin-right:10px;
+	}/*for left images*/
+	
+.right {
+	float:right;
+	padding:5px;
+	margin-left:10px;
+	}/*for right images*/
+	
+#stickers {
+	font-family: 'Comfortaa', cursive;
+	height:400px;
+	}/*for store.html*/
+	
+#games {
+	font-family: 'Comfortaa', cursive;
+	height:400px;
+	}/*for store.html*/
+
+#utility {
+	font-family: 'Comfortaa', cursive;
+	height:400px;
+	}/*for store.html*/
+
+#themes {
+	font-family: 'Comfortaa', cursive;
+	height:600px;
+	}/*for store.html*/
+
+#lineout {
+	font-family: 'Comfortaa', cursive;
+	height:600px;
+	}/*for store.html*/
+	
+.contact {
+	text-decoration:none;
+	}
+	
+.fa-ul {
+	text-align:right;
+	font-size:18px;
+	height:300px;
+	}/*for index.html*/
+	
+#ilist {
+	transition-property: all;
+	transition-delay: 0;
+	transition-duration: 2s;
+	}/*for index.html*/
+	
+#ilist:hover{
+	font-weight:bold;
+	font-family: 'Philosopher', sans-serif;
+	}/*for index.html*/
+	
+	
+#footer {
+	text-align:center;
+	}
+	
+#footer ul {
+	list-style-type:none;
+	}
+	
+#footer li {
+	display:inline;
+	}
+	
+#share-buttons img {
+	width: 35px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+	}/*for footer*/
+	
+/*
+RESOURCES:
+http://line.me/en/
+https://www.youtube.com/user/LineAppGlobal
+https://en.wikipedia.org/wiki/Line_(application)
+http://e27.co/wp-content/uploads/2014/04/LINECharactersHead.jpg
+http://4.bp.blogspot.com/-TDiDmPbeww0/UpMJAol8leI/AAAAAAAAHuo/9ax4SoG-Vdo/s1600/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88+2013-11-25+17.23.07.png
+https://simplesharebuttons.com/html-share-buttons/
+http://www.trecebits.com/wp-content/uploads/2012/12/Line-exito-global.jpg
+*/

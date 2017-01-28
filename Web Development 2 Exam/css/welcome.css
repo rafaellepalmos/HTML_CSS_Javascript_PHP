@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+body {
+	background-image: url("../images/weather.jpg"); /*http://wallpaperspal.com/wp-content/uploads/2014-Weather-Wallpaper.jpg*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#greeting {
+	text-align: right;
+	color: white;
+	padding-right: 50px;
+	font-family: 'Righteous', cursive;
+}
+
+.logout {
+	font-family: 'Righteous', cursive;
+    background-color: white; 
+    color: #f44336; 
+    border: 3px solid #f44336;
+	border-radius: 12px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.logout:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+#cities{
+	width: auto;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	background-color: black;
+}
+
+#cities a {
+	font-family: 'Righteous', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: white;
+}
+
+#cities a:visited {
+	color: white;
+}
+
+#cities a:hover {
+	background-color: lightgray;
+	color: gray;
+}
+
+#container {
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 300px;
+	font-family: Verdana;
+	font-size: 20px;
+	margin: 25px;
+	text-align: left;
+	padding: 20px;
+}
+
+.button {
+	margin: 10px;
+	font-family: 'Righteous', cursive;
+	font-size: 20px;
+	background-color: gray;
+	border: 5px solid gray;
+	color: white;
+	padding: 15px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	border-radius: 15px;
+}
+
+a:hover.button {
+	background-color: white;
+	color: gray;
+}
